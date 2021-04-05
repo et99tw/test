@@ -21,7 +21,7 @@ class Theme
     /**
      * Colour Map.
      *
-     * @var array of string
+     * @var string[]
      */
     private $colourMap;
 

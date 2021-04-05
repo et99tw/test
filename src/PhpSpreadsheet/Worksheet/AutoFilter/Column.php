@@ -77,14 +77,14 @@ class Column
     /**
      * Autofilter Column Rules.
      *
-     * @var array of Column\Rule
+     * @var Column\Rule[]
      */
     private $ruleset = [];
 
     /**
      * Autofilter Column Dynamic Attributes.
      *
-     * @var array of mixed
+     * @var mixed[]
      */
     private $attributes = [];
 
