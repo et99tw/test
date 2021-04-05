@@ -243,7 +243,7 @@ class DataSeries
      *
      * @param mixed $index
      *
-     * @return DataSeriesValues
+     * @return DataSeriesValues|false
      */
     public function getPlotLabelByIndex($index)
     {
@@ -272,7 +272,7 @@ class DataSeries
      *
      * @param mixed $index
      *
-     * @return DataSeriesValues
+     * @return DataSeriesValues|false
      */
     public function getPlotCategoryByIndex($index)
     {
@@ -325,7 +325,7 @@ class DataSeries
      *
      * @param mixed $index
      *
-     * @return DataSeriesValues
+     * @return DataSeriesValues|false
      */
     public function getPlotValuesByIndex($index)
     {
