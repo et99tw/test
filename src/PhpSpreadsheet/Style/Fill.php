@@ -28,12 +28,12 @@ class Fill extends Supervisor
     const FILL_PATTERN_MEDIUMGRAY = 'mediumGray';
 
     /**
-     * @var int
+     * @var null|int
      */
     public $startcolorIndex;
 
     /**
-     * @var int
+     * @var null|int
      */
     public $endcolorIndex;
 
